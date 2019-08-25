@@ -1,3 +1,7 @@
+html {
+    background-color: #ebebeb;
+}
+
 .flex-contener {
     display: flex;
 }
@@ -13,6 +17,40 @@
 .description {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex: 1 1;
+    /* justify-content: center; */
+    /* flex: 1 1; */
 }
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockfilm {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.blockimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 118px;
+    height: 174px;
+}
+
+.block>h1:nth-child(2) {
+    color: #dd555c;
+}
+
+div.flex-contener:nth-child(1) {
+    width: 566px;
+    margin: auto;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    height: 1532px;
+}
+
+.imgfilm {}
