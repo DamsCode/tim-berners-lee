@@ -25,6 +25,9 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .blockfilm {
@@ -48,9 +51,4 @@ html {
 div.flex-contener:nth-child(1) {
     width: 566px;
     margin: auto;
-    margin-top: 42px;
-    margin-bottom: 42px;
-    height: 1532px;
 }
-
-.imgfilm {}
