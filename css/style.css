@@ -18,6 +18,7 @@ html {
 .description {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
     /* justify-content: center; */
     /* flex: 1 1; */
 }
@@ -37,6 +38,7 @@ div.block>p: {
     padding-right: 20px;
     padding-top: 14px;
     padding-bottom: 14px;
+    box-shadow: inset 0 0 1px rgb(126, 125, 124), 0 0 1px rgb(126, 125, 124);
 }
 
 .blockfilm {
@@ -95,10 +97,10 @@ div>div {
     flex-flow: column;
     align-items: center;
     margin: 30px;
-}
-
-div.linked>a {
     text-decoration: none;
     color: #8b8b8b;
-    margin-top: 4px;
+}
+
+div.block:nth-child(3)>h2:nth-child(1)>span:nth-child(1) {
+    background-color: #ebebeb;
 }
