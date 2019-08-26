@@ -4,6 +4,7 @@ html {
 
 .flex-contener {
     display: flex;
+    color: #8b8b8b;
 }
 
 .col {
@@ -21,6 +22,10 @@ html {
     /* flex: 1 1; */
 }
 
+div.block>p: {
+    line-height: 1.5;
+}
+
 .block {
     display: flex;
     flex-direction: column;
@@ -28,6 +33,10 @@ html {
     background-color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .blockfilm {
@@ -51,4 +60,45 @@ html {
 div.flex-contener:nth-child(1) {
     width: 566px;
     margin: auto;
+}
+
+#imgtim {
+    border-radius: 50%;
+    border-left-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    width: 30%;
+}
+
+div.block:nth-child(1)>a:nth-child(5) {
+    text-decoration: none;
+    background-color: #dd555c;
+    color: white;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+div>div {
+    display: flex;
+}
+
+.linked {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 30px;
+}
+
+div.linked>a {
+    text-decoration: none;
+    color: #8b8b8b;
+    margin-top: 4px;
 }
