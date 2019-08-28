@@ -1,6 +1,7 @@
 {
     "dependencies": {
-        "node-sass": "^4.12.0"
+        "node-sass": "^4.12.0",
+        "scss": "^0.2.4"
     },
     "scripts": {
         "scss": "node-sass --watch assets/scss -o assets/css"
